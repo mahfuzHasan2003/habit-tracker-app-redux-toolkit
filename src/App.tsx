@@ -3,6 +3,7 @@ import { Container, Typography, Box } from "@mui/material";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import AddHabitForm from "./components/add-habit-form";
+import HabitList from "./components/habit-list";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
             Habit Tracker
           </Typography>
           <AddHabitForm />
+          <HabitList />
         </Box>
       </Container>
     </Provider>
