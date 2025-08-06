@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import AddHabitForm from "./components/add-habit-form";
 import HabitList from "./components/habit-list";
+import HabitStats from "./components/habit-stats";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           </Typography>
           <AddHabitForm />
           <HabitList />
+          <HabitStats />
         </Box>
       </Container>
     </Provider>
